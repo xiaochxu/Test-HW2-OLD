@@ -1,0 +1,91 @@
+body { 	background: pink;
+        color: black;
+		font-family: Gill Sans, Verdana, Helvetica, sans-serif;
+		font-size: 10pt;
+		margin: 0 auto; 
+	}
+
+h1.title {
+			font-size: 36pt;
+			font-family: "Comic Sans MS";
+			font-weight: bold;
+			text-align:center;
+			margin-top: 10px;
+			margin-bottom: 0px; 
+		}
+
+
+h2.title {
+			font-size: 16pt;
+			font-weight: bold;
+			font-family: Times New Roman;
+			text-decoration: underline;
+			padding-bottom: 0px;
+			margin-top: 15px;
+			margin-bottom: 20px;
+		}	
+h3.title {
+			font-size: 12pt;
+			font-weight: bold;
+			font-family: Times New Roman;
+			margin-left:15px; margin-bottom:15px
+			}
+h4.title {
+			font-size: 20pt;
+			font-weight: bold;
+			font-family: "Comic Sans MS";
+			text-decoration: underline;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}	
+ul { margin:0px; padding:0; list-style:none; }
+li { margin-left:35px; margin-bottom:10px; padding:0;  }
+
+a { text-decoration:none; font-weight: bold; }
+a:link, a:visited { color: #fff; }	
+	
+#header { background:#EEE0E5; padding:7px 12px;  }
+
+#nav { background:#CDB5CD; padding:6px 11px; text-align:center; }
+#nav li  { display: inline; list-style-type: none; padding-right: 20px; font-size: 14pt; font-weight:normal; font-variant:small-caps;}
+
+#left_sidebar { float:left; width:400px; padding:10px; }
+
+#paragraph {font-size:14pt;font-family: Calibri;}
+
+
+/* Resume formatting */
+
+#resume {background:#9c9; width:900px; margin:auto; padding:20px; text-align:left; }
+
+table { border-collapse:collapse; width:80%; margin-left:75px; }
+table,th, td { border: 1px solid green; }
+th { height:30px; background-color:green; color:white; text-align:center; vertical-align:middle; padding:15px;} 
+th.coursename { text-align:left;}
+td { text-align:center; height:30px; vertical-align:middle; padding:5px;}
+td.coursename { text-align:left;}
+caption { text-align:left;}
+
+a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	
+a:hover, a:hover.resume { color: #fff; background-color: #036; text-decoration: underline; }	
+
+.printonly { display:none; }
+.pagebreak { display:none; }
+#printheader { display:none; }
+
+
+.picture {
+			border: solid 1px black; 
+			background: #fff;
+			width: 250px;
+			padding: 30px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+
+
