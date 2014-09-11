@@ -1,7 +1,7 @@
 body { 	background: pink;
         color: black;
-		font-family: Gill Sans, Verdana, Helvetica, sans-serif;
-		font-size: 10pt;
+		font-family: Times New Roman;
+		font-size: 12pt;
 		margin: 0 auto; 
 	}
 
@@ -37,8 +37,8 @@ h4.title {
 			text-decoration: underline;
 			font-variant: small-caps;
 			padding-bottom: 0px;
-			margin-top: 30px;
-			margin-bottom: 25px;
+			margin-top: 50px;
+			margin-bottom: 30px;
 		}	
 ul { margin:0px; padding:0; list-style:none; }
 li { margin-left:35px; margin-bottom:10px; padding:0;  }
@@ -55,18 +55,8 @@ a:link, a:visited { color: #fff; }
 
 #paragraph {font-size:14pt;font-family: Calibri;}
 
-
-/* Resume formatting */
-
 #resume {background:#9c9; width:900px; margin:auto; padding:20px; text-align:left; }
 
-table { border-collapse:collapse; width:80%; margin-left:75px; }
-table,th, td { border: 1px solid green; }
-th { height:30px; background-color:green; color:white; text-align:center; vertical-align:middle; padding:15px;} 
-th.coursename { text-align:left;}
-td { text-align:center; height:30px; vertical-align:middle; padding:5px;}
-td.coursename { text-align:left;}
-caption { text-align:left;}
 
 a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	
 a:hover, a:hover.resume { color: #fff; background-color: #036; text-decoration: underline; }	

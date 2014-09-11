@@ -20,13 +20,10 @@ body { background: white; font-size: 8pt; font-family: Times New Roman;}
 ul { margin:0px; padding:0; list-style:disc; }
 li { margin-left:20px; margin-bottom:5px; padding:0;  }
 
-
-#header, #nav, #sidebar, #footer { display: none; }
-
+#header, #nav, #sidebar { display: none; }
 
 #printheader { display:block; text-align:center; float:none; padding-top:0px; padding-bottom:0;}
 .printonly {display:block;}
-
 
 #resume {
    width: auto;
